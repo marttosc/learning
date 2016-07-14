@@ -1,2 +1,3 @@
-# learning
-Collection of repositories of new skills while I'm learning
+# Learning
+
+This repository was created to store all my learning codes.
