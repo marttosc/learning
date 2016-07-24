@@ -8,6 +8,7 @@ This "repository" contains in numerical order the Python files that I used t    
     - [01 - Hello world!](01-hello-world.py)
     - [02 - Counting to 10](02-counting-to-10.py)
     - [03 - Using the Math module](03-using-math-module.py)
+    - [04 - Arrays](04-array.py)
 - **Intermediate**
 - **Advanced**
 
