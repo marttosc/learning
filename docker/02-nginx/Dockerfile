@@ -5,5 +5,6 @@ MAINTAINER Gustavo Marttos <marttosc@gmail.com>
 RUN apt-get update
 RUN apt-get install -y nginx
 COPY test_file /tmp/test_file
-CMD bash
+
+EXPOSE 80 443
 
