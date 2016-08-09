@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <menu title="My app"></menu>
+    <menu title="My app">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <div slot="footer">This is a footer slot menu.</div>
+    </menu>
     <h1>{{ msg }}</h1>
   </div>
 </template>
