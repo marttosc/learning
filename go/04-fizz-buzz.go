@@ -11,19 +11,24 @@ func main() {
 	)
 
 	for i := 1; i <= 100; i++ {
-		if i % fizz == 0 {
+		found := false
+
+		if i%fizz == 0 {
 			fmt.Print("fizz")
+
+			found = true
 		}
 
-		if i % buzz == 0 {
+		if i%buzz == 0 {
 			fmt.Print("buzz")
+
+			found = true
 		}
 
-		if i % fizz != 0 && i % buzz != 0 {
-			fmt.Print(i)
+		if !found {
+			fmt.Printf("%v", i)
 		}
 
 		fmt.Println()
 	}
 }
-
